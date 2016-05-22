@@ -1,0 +1,85 @@
+/* CSS declarations go here */
+img {
+	width:100%;
+    border-radius:50%;
+}
+
+.post {
+	margin-bottom:20px;
+	padding-bottom:20px;
+	border-bottom:#ccc solid 1px;
+}
+.post:last-child {
+	border:none;
+}
+.navbar-inverse {
+	background-color: #E91E63;
+    border-color: #E91E63;
+    border-radius: 0;
+    border: none;
+}
+.navbar-inverse .navbar-nav > li > a {
+	color:#fff;
+}
+.navbar-inverse .navbar-brand {
+	color:#fff;
+	text-transform:uppercase;
+}
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+	color: #fff;
+    background-color: #E91E63;
+}
+.btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
+	color: #fff;
+    background-color: #E91E63!important;
+    border-color: #E91E63;
+    outline:none!important;
+}
+#login-buttons a, .accounts-dialog a {
+	color:#fff;
+}
+
+#login-buttons .login-close-text {
+	float: right;
+    position: relative;
+    padding-bottom: 8px;
+    color: #fff;
+}
+.accounts-dialog label {
+	color:#fff;
+}
+#login-dropdown-list {
+    position: absolute;
+    top: 32px;
+}
+.accounts-dialog {
+	border: none;
+    z-index: 1000;
+    background: #E91E63;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0;
+    width: 215px;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    font-size: 16px;
+    color: #333;
+    border-radius: 0;
+}
+#login-buttons .login-button, .accounts-dialog .login-button {
+	ursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+    padding: 4px 8px;
+    font-size: 80%;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    text-align: center;
+    color: #fff;
+    background: #E91E63;
+    border: 1px solid #FF387C;
+    border-radius: 4px;
+}
